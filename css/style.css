@@ -14,7 +14,7 @@
 /* #Primary
 ================================================== */
 .cd-header{
-	background-color: #84ceeb2c!important;
+	background-color: #84ceeb;
 	}
 	
 body{
@@ -24,7 +24,7 @@ body{
 	line-height: 1.7;
 	color: #c4c3ca;
 	overflow-x: hidden;
-	background-color: #84ceeb;
+	background-color: #84ceeb!important;
 }
 p{
 	color: azure!important;
@@ -487,7 +487,7 @@ a:hover {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #84ceeb85;
+	background: #84ceeb;
 	z-index: -1;
 	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
 	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -2932,6 +2932,7 @@ figure.vimeo a img, figure.youtube a img {
 	.case-study-images li .img-hero-background{
 		width: 100%;
 		left: 0;
+		height: 70%;
 	}
 	.case-study-name-title {
 		left: auto;
