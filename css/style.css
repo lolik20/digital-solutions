@@ -14,7 +14,7 @@
 /* #Primary
 ================================================== */
 .cd-header{
-	background-color: #84ceeb;
+	background-color: #000000;
 	}
 	
 body{
@@ -24,7 +24,7 @@ body{
 	line-height: 1.7;
 	color: #c4c3ca;
 	overflow-x: hidden;
-	background-color: #84ceeb!important;
+	background-color: #000000!important;
 }
 p{
 	color: azure!important;
@@ -71,10 +71,10 @@ h6, .h6 {
 	color: #fff;
 }
 ::selection {
-	background-color: #84ceeb;
+	background-color: #000000;
 }
 ::-moz-selection {
-	background-color: #84ceeb;
+	background-color: #000000;
 }
 mark{
 	color:#fff;
@@ -164,28 +164,28 @@ mark{
 	max-width: 80%;
 }
 .background-white {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 .background-grey {
-	background-color: #fbfbfb;
+	background-color: #000000;
 }
 .background-grey-1 {
-	background-color: #f9f9f9;
+	background-color: #000000;
 }
 .background-dark {
-	background-color: #84ceeb;
+	background-color: #000000;
 }
 .background-dark-1 {
-	background-color:  #84ceeb;
+	background-color:  #000000;
 }
 .background-dark-2 {
-	background-color: #84ceeb;
+	background-color: #000000;
 }
 .background-dark-3 {
-	background-color:  #84ceeb;
+	background-color:  #000000;
 }
 .background-black {
-	background-color:  #84ceeb;
+	background-color:  #000000;
 }
 .color-black {
 	color: #000000;
@@ -320,6 +320,12 @@ mark{
 	z-index: 10000;
 	transform: translate(-50%, -50%);
 	pointer-events: none;
+}
+.send_message{
+	border-radius: 10px;
+}
+.send-btn{
+	color: #000;
 }
 .cursor.cursor-shadow {
 	background-color: transparent;
@@ -487,7 +493,7 @@ a:hover {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #84ceeb;
+	background: #000000;
 	z-index: -1;
 	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
 	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -497,7 +503,7 @@ a:hover {
           transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-	background: #84ceeb;
+	background: #000000;
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
@@ -2029,7 +2035,7 @@ figure.vimeo a img, figure.youtube a img {
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
     transition: all 300ms linear; 
-	a -webkit-transform: scale(1);
+	 -webkit-transform: scale(1);
 	transform: scale(1);
 	cursor: pointer;
 	cursor: url('../img/play.png') 6 8,pointer;
@@ -3014,6 +3020,14 @@ border-radius: 7px;
 	}
 }
 
+.main-text-title{
+	font-size: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
 
 
 
